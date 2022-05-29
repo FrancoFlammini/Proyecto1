@@ -20,6 +20,7 @@
     left: -9%;
     right: 20%;
     bottom: 255%;
+    
 }
 
 .colorBlanco{
@@ -33,6 +34,7 @@
     margin-top: 1%;
     margin-bottom: 1%;
     padding: 1vw;
+ 
 }
 
 
@@ -70,6 +72,7 @@ h1{
     text-align: center;
     margin-top: 2%;
     margin-bottom: 2%;
+   
 }
 
 
@@ -135,6 +138,10 @@ i{
 .topnav {
     background-color: rgb(255, 255, 255);
     overflow: hidden;
+    background: #000000;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #434343, #000000);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #434343, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
   }
   
   /* Style the links inside the navigation bar */
@@ -142,7 +149,7 @@ i{
     
     float: left;
     display: block;
-    color: #000000;
+    color: #ffffff;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -359,6 +366,7 @@ style{
     grid-area: content2;
     border-radius: 15px;
     padding-top: 15px;
+    
 }
 
 .vidioyt{
@@ -367,6 +375,7 @@ style{
     left: -10%;
     right: 0%;
     bottom: 0%;
+    
     
 }
 footer {
