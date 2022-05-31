@@ -267,22 +267,19 @@ style{
     padding: 2%;    
     margin-left: 36%;
  }
+
+ .productos{
+   text-align: center;
+ }
 .chasis{
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  margin: 0;
-  padding: 0%;
-  align-items: center;
+   justify-content: center;
+   width: 45%;
 }
 
 .mercadopago{
-  display: flex;
   justify-content: center;
-  flex-wrap: wrap;
-  margin: 0;
-  padding: 0%;
-  align-items: center;
+  width: 45%;
+  text-align: center;
 }
 
 .maps{
