@@ -267,20 +267,20 @@ style{
     padding: 2%;    
     margin-left: 36%;
  }
- #chasis{
+.chasis{
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  margin: 0%;
+  margin: 0;
   padding: 0%;
   align-items: center;
 }
 
-#mercadopago{
+.mercadopago{
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  margin: 0%;
+  margin: 0;
   padding: 0%;
   align-items: center;
 }
