@@ -9,7 +9,15 @@
   align-items: center;
   width: 15%;
   margin-left: 42.6%;
+  margin-top: 2%
 }
+
+.animate__animated.animate__flash{
+   
+    animation-duration: 2s;
+    animation-iteration-count: 2;
+}
+
 
 
 .titles{
