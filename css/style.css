@@ -1,7 +1,19 @@
 *{
     margin: 0;
     padding: 0;
-}
+    }
+
+    .navbar-light .navbar-nav .nav-link {
+        color: rgb(255, 255, 255);
+    }
+    
+    .bg-dark {
+        --bs-bg-opacity: 1;
+        background: #000000;
+    background: -webkit-linear-gradient(to right, #434343, #000000);
+    background: linear-gradient(to right, #434343, #000000);
+    
+    }
 
 
 .logo{
@@ -93,6 +105,7 @@ iframe{
     margin-left: 5%;
     margin-bottom: 0%;
 }
+
 .ul{
     margin: 0% 4% 0% 31%;
 }
@@ -164,9 +177,11 @@ style{
  .productos{
    text-align: center;
  }
+
 .chasis{
    justify-content: center;
    width: 45%;
+   margin-left: 7%;
 }
 
 .mercadopago{
@@ -229,7 +244,7 @@ style{
   font-weight: 800;
   text-transform: uppercase;
   font-size: 12px;
-  color: #f00000;
+  color: #000000;
   text-align: center;
   margin-left: 11.5%;
 }
@@ -242,6 +257,7 @@ style{
     border-radius: 5px;
     padding-top: 20%;
     margin-left: -100%;
+
 }
 
 #content1 {
@@ -259,38 +275,86 @@ style{
     
 }
 
+#footer{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    justify-content: center;
+    background: black;
+    grid-area: footer;
+    border-radius: 15px;
+    padding-top: 15px;
+    
+}
+    
+.imgfooter{
+    display: flex;
+    align-items: center;
+    width: 5%;
+    margin-bottom: 0%;
+    margin-left: 53% 
+}
+
+.imgfooter2{
+    display: flex;
+    align-items: center;
+    width: 4%;
+    margin-bottom: 0%;
+    margin-left: 47% 
+}
+
+.textfooter{
+    
+    background: hidden;
+    border-radius: 5px;
+    padding-top: 5px;
+    margin-left: 12%
+}
+
+.textfooter2{
+    
+    background: hidden;
+    border-radius: 5px;
+    padding-top: 5px;
+    margin-left: -1%;
+}
+
 .vidioyt{
     position: relative;
     top: 0%;
     left: -8%;
     right: 0%;
     bottom: 0%;
-    
-    
-}
-footer {
-    background: #000000;
-    grid-area: footer;
-    border-radius: 5px;
-    padding-top: 5px;
 }
 
-/* a {
+h5{
+    color: rgb(244, 244, 244);
+    font-family:'Julius Sans One', sans-serif;
     text-align: center;
-    display: block;
-    font-family: inherit;
-    text-decoration: none;
-    font-weight: bold;
-    margin: 1rem;
+    margin-top: 4%;
+    margin-bottom: 2%;
+    font-size: 1rem;
 
-} */
+}
 
-@media screen and (max-width:550px){
+/* PRODUCTOS Y FORMAS DE PAGO */
+
+.pchasis{
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin-top: 0%;
+
+}
+
+
+@media screen and (max-width:850px){
 
 
 .container{
         grid-template-columns: 1fr;
- 	     grid-template-rows: 1fr 0.4fr 0.2fr;
+ 	    grid-template-rows: 1fr 0.4fr 0.2fr;
         grid-template-areas: 
 "sidebar"
 "content1"
@@ -298,14 +362,47 @@ footer {
 "footer";
 }
 
+#sidebar{
+    margin-left: 0%;
+    margin-right: 35%;
+    padding-top: 5%;
+    margin-bottom: 5%;
 }
+#iframe{
+
+    width: 90vw;
+    height: 50vh;
+    margin-left: 0%;
+}
+
+.logo{
+    display: flex; 
+    align-items: center;
+    width: 20%;
+    margin-left: 42.6%;
+    margin-top: 2%
+}
+
+.Nosotros{
+    width: 90vw;
+    height: 30vh;
+}
+
+.vidioyt{
+    width: 90vw;
+    height: 30vh;
+    margin-left: 0%;
+} 
+
+}
+
 .navbar-light .navbar-nav .nav-link {
     color: rgb(255, 255, 255);
 }
 
 .bg-dark {
-    --bs-bg-opacity: 1;
-    background: #000000;  /* fallback for old browsers */
+--bs-bg-opacity: 1;
+background: #000000;  /* fallback for old browsers */
 background: -webkit-linear-gradient(to right, #434343, #000000);  /* Chrome 10-25, Safari 5.1-6 */
 background: linear-gradient(to right, #434343, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
