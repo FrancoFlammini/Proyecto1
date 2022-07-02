@@ -226,7 +226,9 @@ style{
     margin-bottom: 1vw;
 }
 
-
+.horario{
+    margin-bottom: 2%;
+}
 .none{
     text-decoration: none;
 }
